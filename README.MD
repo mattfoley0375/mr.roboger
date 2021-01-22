@@ -42,10 +42,9 @@ Test: Inputted numbers that contain a 3 have all their digits replaced with "Won
 Expect:(beepBoop(3)).toEqual("Won't you be my neighbor?");
 
 Test: Inputted numbers that contain a 2 or 3 will have all their digits replaced with "Won't you be my neighbor" unless the second or third exception applies.
-Expect:(beepBoop(12)).toEqual("Boop");
 Expect:(beepBoop(13)).toEqual("Won't you be my neighbor?");
 Expect:(beepBoop(21)).toEqual("Boop");
-Expect:(beepBoop(32)).toEqual("Won't you be my neighbor?");
+Expect:(beepBoop(32)).toEqual("Won't you be my neighbor?");  
 
 ## Known Bugs
 
