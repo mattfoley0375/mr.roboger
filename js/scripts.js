@@ -26,4 +26,4 @@ $(document).ready(function() {
     const number = parseInt($("#number")).valueOf();
 
 
-    ("#output").text(inputted);
+    ("#output").text(inputted);.
