@@ -4,7 +4,14 @@ function beepBoop(number) {
   for (i = 0; i <= number; i++) {
     if (i.toString().includes(3)) {
       answer.push("Won't you be my neigh-bot?");
-    } else if 
+    } else if (i.toString().includes(2)) {
+      answer.push("Boop!)
+    } else if (i.toString().includes(1)) {
+      answer.push("Beep!")
+    } else {
+      answer.push(i);
+    }
+    return answer;
   }
 
 
