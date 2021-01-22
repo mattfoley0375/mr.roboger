@@ -30,11 +30,11 @@ Description: beepBoop()
 Test: This returns an array with 0 if 0 is inputted by the user
 * Expect: (beepBoop(0)).toEqual([0]));
 
-# Second Exception #
+### Second Exception ###
 Test: Inputted numbers that contain a 1 have all their digits replaced with "Beep!"
 * Expect:(beepBoop(1)).toEqual("Beep!")
 
-# Third Exception #
+### Third Exception ###
 Test: Inputted numbers that contain a 2 have all their digits replaced with "Boop!"
 * Expect: (beepBoop(2)).toEqual("Boop!");
 
