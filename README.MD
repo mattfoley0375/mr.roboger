@@ -23,6 +23,12 @@ The messages from Mr. Roboger could include the following: "Beep!", "Beep", "Boo
 * Clone the repository to somewhere safe on your desktop where you can access it
 * Go to the top level of the directory and open index.html in your browser
 
+##Specs
+Description: Boopbeep
+
+Test: This returns an array with 0 if 0 is inputted by the user
+Expect: (Boopbeep(0)) === 
+
 ## Known Bugs
 
 * There are no known bugs so far
