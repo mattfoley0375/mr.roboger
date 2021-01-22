@@ -1,11 +1,14 @@
 ///Business Logic Top
 function beepBoop(number) {
   let inputtedArray = [];
-  for (let i=0, i <= number, i++) {
+  for (let i = 0, i <= number, i++) {
     inputtedArray.push([i]);
 if (inputtedArray[i].toString()includes(1)) {
   inputtedArray[i]= "Beep";
+  else if (inputtedArray[i].toStrong().includes(2)){
+    inputtedArray[i]= "Boop"
 
+  }
 }
 }
   
