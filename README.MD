@@ -32,7 +32,7 @@ Expect: (beepBoop(0).toEqual([0]));
 
 //Second Exception
 Test: Numbers that contain a 1 have all their digits replaced with "Beep!"
-Expect:
+Expect:(beepBoop(1)).toEqual("Beep!")
 
 //Third Exception
 Test: Numbers that contain a 2 have all their digits replaced with "Boop!"
