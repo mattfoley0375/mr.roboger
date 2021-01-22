@@ -24,10 +24,23 @@ The messages from Mr. Roboger could include the following: "Beep!", "Beep", "Boo
 * Go to the top level of the directory and open index.html in your browser
 
 ##Specs
-Description: Boopbeep
+
+Description: beepBoop()
 
 Test: This returns an array with 0 if 0 is inputted by the user
-Expect: (Boopbeep(0)) === 
+Expect: (beepBoop(0).toEqual([0]));
+
+Test: Numbers that contain a 1 have all their digits replaced with "Beep!"
+Expect:
+
+Test: Numbers that contain a 2 have all their digits replaced with "Boop!"
+Expect:
+
+Test: Numbers that contain a 3 have all their digits replaced with "Won't you be my neighbor?"
+Expect:
+
+Test: Numbers that contain a 2 or 3 will have all their digits replaced with "Won't you be my neighbor" unless the second or third exception applies.
+Expect:
 
 ## Known Bugs
 
