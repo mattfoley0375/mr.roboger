@@ -1,24 +1,25 @@
-# Matthew James Foley
+# Mr. Roboger's Neighborhood
 
 #### By Matthew Foley
 
-#### A simple portfolio that I look to improve on everday.
-
-Direct Link: https://mattfoley0375.github.io/portfolio/
+Direct Link: 
 
 ## Techologies Used
 
 * GIT
 * HTML
 * CSS
+* JavaScript
+* jQuery
 
 ## Description
 
-This webpage gives users access to different projects I have created and provides information about me and my work experience.
+This webpage gives users the opportunity to enter a number of their choice into an input form and returns a message from the infamous "Mr. Roboger"
+The messages from Mr. Roboger could include the following: "Beep!", "Beep", "Boop!", "Boop", and "Won't you be my neighbor?" depending on what number you enter. 
 
 ## Setup/Installation Requirements
 
-* You need a basic pc with internet accesss to open this html
+* You need a basic pc with internet access to open this html
 * Clone the repository to somewhere safe on your desktop where you can access it
 * Go to the top level of the directory and open index.html in your browser
 
