@@ -5,6 +5,7 @@ function beepBoop(number) {
     inputtedArray.push([i]);
 if (inputtedArray[i].toString()includes(1)) {
   inputtedArray[i]= "Beep";
+
 }
 }
   
@@ -24,6 +25,4 @@ $(document).ready(function() {
   $(#InputNumber).submit(function) {
     event.preventDefault();
     const number = parseInt($("#number")).valueOf();
-
-
-    ("#output").text(inputted);.
+    const answer = beepBoop (number);
