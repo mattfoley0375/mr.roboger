@@ -4,7 +4,7 @@ function beepBoop(number) {
   for (let i=0, i <= number, i++) {
     inputtedArray.push([i]);
 if (inputtedArray[i].toString()includes(1)) {
-  inputtedArray[i]= "Beep";
+ 
 }
 }
   
