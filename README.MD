@@ -28,21 +28,24 @@ The messages from Mr. Roboger could include the following: "Beep!", "Beep", "Boo
 Description: beepBoop()
 
 Test: This returns an array with 0 if 0 is inputted by the user
-Expect: (beepBoop(0).toEqual([0]));
+Expect: (beepBoop(0)).toEqual([0]));
 
 //Second Exception
-Test: Numbers that contain a 1 have all their digits replaced with "Beep!"
+Test: Inputted numbers that contain a 1 have all their digits replaced with "Beep!"
 Expect:(beepBoop(1)).toEqual("Beep!")
 
 //Third Exception
-Test: Numbers that contain a 2 have all their digits replaced with "Boop!"
-Expect:
+Test: Inputted numbers that contain a 2 have all their digits replaced with "Boop!"
+Expect: (beepBoop(2)).toEqual("Boop!");
 
-Test: Numbers that contain a 3 have all their digits replaced with "Won't you be my neighbor?"
-Expect:
+Test: Inputted numbers that contain a 3 have all their digits replaced with "Won't you be my neighbor?"
+Expect:(beepBoop(3)).toEqual("Won't you be my neighbor?");
 
-Test: Numbers that contain a 2 or 3 will have all their digits replaced with "Won't you be my neighbor" unless the second or third exception applies.
-Expect:
+Test: Inputted numbers that contain a 2 or 3 will have all their digits replaced with "Won't you be my neighbor" unless the second or third exception applies.
+Expect:(beepBoop(12)).toEqual("Boop");
+Expect:(beepBoop(13)).toEqual("Won't you be my neighbor?");
+Expect:(beepBoop(21)).toEqual("Boop");
+Expect:(beepBoop(32)).toEqual("Won't you be my neighbor?");
 
 ## Known Bugs
 

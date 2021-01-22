@@ -1,6 +1,6 @@
 ///Business Logic Top
-$(document).ready(function() {
-  $(#InputNumber).submit(function)
+function beepBoop(number) {
+  
 }
 
 
@@ -13,7 +13,8 @@ $(document).ready(function() {
 
 
 ///User Interface Logic
-$(document).ready(function () {
-function beepBoop(number) {
-  let 
-}
+$(document).ready(function() {
+  $(#InputNumber).submit(function) {
+    event.preventDefault();
+
+  }
