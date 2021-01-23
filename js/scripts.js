@@ -19,13 +19,11 @@ function arrayInput(number) {
       inputNumber.push(beep);
     } else {
       inputNumber.push(numberInput);
-
     }
     }
     return inputNumber;
 
   }
-
 
 ///User Interface Logic
 $(document).ready(function () {
