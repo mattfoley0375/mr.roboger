@@ -1,9 +1,35 @@
+///Business Logic Top
 
+function arrayInput(numbers) {
+  let inputNumber = [];
+  for (let i = 0; i <= numbers; i += 1) {
+    const numberInput = i.toString();
+
+
+    const boop = "Boop!"
+    const neighbot = "Won't you be my neigh-bot?"
+    const beep = "Beep!"
+   
+    
+    if (numberInput.includes(3)) {
+      inputNumber.push(neighbot);
+    } else if (numberInput.includes(2)) {
+      inputNumber.push(boop);
+    } else if (numberInput.includes(1)) {
+      inputNumber.push(beep);
+    } else {
+      inputNumber.push(numberInput);
+
+    }
+    }
+    return inputNumber;
+
+  }
 
 
 ///User Interface Logic
 $(document).ready(function () {
-  $("form#form").submit(function (event) {
+  $("form#NumberInputForm").submit(function (event) {
     event.preventDefault();
     const number = ($("input#numVal").val());
     const inputResult = arrayInput(number);
@@ -14,28 +40,3 @@ $(document).ready(function () {
 
 
 
-///Business Logic Top
-
-function arrayInput(numbers) {
-  let inputNumber = [];
-  for (let index = 0; index <= numbers; index += 1) {
-    const numbInput = index.toString();
-
-    const beep = "Beep!"
-    const boop = "Boop!"
-    const neighbot = "Won't you be my neigh-bot?"
-    
-    if (numbInput.includes(3)) {
-      inputNumber.push(neighbot);
-    } else if (numbInput.includes(2)) {
-      inputNumber.push(boop);
-    } else if (numbInput.includes(1)) {
-      inputNumber.push(beep);
-    } else {
-      inputNumber.push(numbInput);
-
-    }
-    }
-    return inputNumber;
-
-  }
