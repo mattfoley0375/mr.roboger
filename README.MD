@@ -2,8 +2,6 @@
 
 #### By Matthew Foley
 
-Direct Link: 
-
 ## Techologies Used
 
 * GIT
@@ -25,26 +23,25 @@ The messages from Mr. Roboger could include the following: "Beep!", "Beep", "Boo
 
 ## Specs
 
-Description: beepBoop()
+Description: arrayInput(numbers)
 
 Test: This returns an array with 0 if 0 is inputted by the user
-* Expect: (beepBoop(0)).toEqual([0]));
+* Expect: inputNumber "Enter a number bigger than 0 silly human"
 
 **Second Exception**
 * *Test: Inputted numbers that contain a 1 have all their digits replaced with "Beep!"*
-* *Expect:(beepBoop(1)).toEqual("Beep!")*
+* *Expect inputNumber.toEqual("Beep!")*
 
 **Third Exception**
 * *Test: Inputted numbers that contain a 2 have all their digits replaced with "Boop!"*
-* *Expect: (beepBoop(2)).toEqual("Boop!");*
+* *Expect: inputNumber.toEqual("Boop!");*
 
 Test: Inputted numbers that contain a 3 have all their digits replaced with "Won't you be my neighbor?"
-* Expect:(beepBoop(3)).toEqual("Won't you be my neighbor?");
+* Expect: inputNumber.toEqual("Won't you be my neighbot?");
 
 Test: Inputted numbers that contain a 2 or 3 will have all their digits replaced with "Won't you be my neighbor" unless the second or third exception applies.
-* Expect:(beepBoop(13)).toEqual("Won't you be my neighbor?");
-* Expect:(beepBoop(21)).toEqual("Boop");
-* Expect:(beepBoop(32)).toEqual("Won't you be my neighbor?");  
+* Expect: return InputNumber
+
 
 ## Known Bugs
 
