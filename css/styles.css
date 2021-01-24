@@ -1,9 +1,11 @@
 @font-face {
   font-family: "Rogers";
-  src: url("http://www.fontsaddict.com/fontface/rogers.ttf") format("ttf");
+  src: url("Rogers.tff") format("embedded-opentype"),
+  url("Rogers.ttf") format("opentype");
+  font-style: normal;
+  font-weight: 100;
 }
 
-
-h1 {
+h1,h2,h3 {
   font-family: "Rogers";
 }
