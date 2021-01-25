@@ -25,8 +25,8 @@ The messages from Mr. Roboger could include the following: "Beep!", "Beep", "Boo
 
 Description: arrayInput(numbers)
 
-Test: This returns an array with 0 if 0 is inputted by the user
-* Expect: inputNumber "Enter a number bigger than 0 silly human"
+Test: This returns an array with 0 if 0 is inputted by the user.
+* Expect: (beepBoop(0).toEqual([0]);
 
 **Second Exception**
 * *Test: Inputted numbers that contain a 1 have all their digits replaced with "Beep!"*
