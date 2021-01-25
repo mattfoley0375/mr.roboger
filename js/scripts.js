@@ -8,10 +8,9 @@ function arrayInput(number) {
     const neighbot = "Won't you be my neigh-bot?"
     const beep = "Beep!"
     const none = "Enter a number bigger than 0 silly human!"
-    
-    if (numberInput.includes(0)) {
-      inputNumber.push(none);
-    } else if (numberInput.includes(3)) {
+  
+  
+    if (numberInput.includes(3)) {
       inputNumber.push(neighbot);
     } else if (numberInput.includes(2)) {
       inputNumber.push(boop);
@@ -22,7 +21,6 @@ function arrayInput(number) {
     }
     }
     return inputNumber;
-
   }
 
 ///User Interface Logic
