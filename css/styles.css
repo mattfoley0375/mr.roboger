@@ -1,0 +1,67 @@
+body {
+  background-color:rgb(156, 209, 245);
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: rgb(153, 14, 14);
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 60px;
+  padding: 20px;
+}
+
+h2 {
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+  margin-left: 60px;
+}
+
+div {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  margin-left: 100px;
+}
+
+p {
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+.btn  {
+  padding-bottom: 12px;
+  text-align: auto;
+  display: block;
+  width: auto;
+  border:9px;
+  border-style:solid;
+  font-size: 40px;
+  cursor: pointer;
+  text-align: center;
+}
+
+input[type='text'] {
+  height: 30px;
+  width: 130px;
+  }
+
+h3 {
+  display: none;
+  margin-left: 500px;
+}
+
+.InNum {
+  margin-left: 40px;
+}
+
+.results {
+  color: rgb(153, 14, 14);
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
